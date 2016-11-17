@@ -1,0 +1,107 @@
+.card div img{
+  width:100%;
+}
+.card div p{
+  font-size: 30px;
+  line-height: 30px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -o-text-overflow:ellipsis;
+  padding:10px 130px 10px 0;
+  font-weight: 600;
+  color:#333333;
+  white-space: nowrap;
+}
+.card div>span{
+  display: block;
+  position: relative;
+  line-height: 35px;
+  font-size: 24px;
+  word-break: break-all;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  -o-text-overflow:ellipsis;
+  color: #999999;
+  padding:6px 0;
+}
+.card div>span>a{
+  position: absolute;
+  font-size: 25px;
+  top:0;
+  right:0;
+  color:#db4453
+}
+.card div>span>a:before,.card div li>span,.card div li>em{
+  content: "￥"
+}
+.card div>span>a:after{
+  content: "起"
+}
+.card div>i{
+  position: relative;
+  display: block;
+  margin-bottom:20px;
+  font-style:normal
+}
+
+.card div b{
+  position: absolute;
+  width:68px;
+  color:#fff;
+  line-height: 68px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+  display: block;
+  bottom:-34px;
+  right:40px;
+  background-color: #db4453;
+  border:1px solid #ffffff;
+}
+.card div li{
+  list-style: none;
+  font-size: 24px;
+  line-height: 25px;
+  padding:10px 0
+}
+.card div li>span{
+  color: #db4453;
+  margin-right: 20px;
+ }
+.card div li>del{
+  color: #989898;
+  font-size: 20px;
+}
+.card div li>span:before,.card div li>del:before{
+  content: "￥";
+}
+.card div li:before{
+  background-color: #db4453;
+  color:#fff;
+  font-size: 17px;
+  padding:4px 5px;
+  content: "疯抢价";
+  margin-right:20px;
+}
+.card div{
+  background-color: #fff;
+  padding:20px;
+  display: block;
+  text-align: left;
+}
+.card + .card{
+  border-top:1px solid #ebebeb
+}
+.card .cardDark>i>b{
+  background-color: #000;
+  line-height: 29px;
+  padding:5px;
+}
+.card .cardDark>li:before{
+  color:#fff;
+  background-color: #000;
+}
+.card .cardDark>li>span{
+  color:#000;
+}

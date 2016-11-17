@@ -1,0 +1,25 @@
+.am-navbar{
+  position: fixed;
+  z-index: 500;
+  width:100%;
+  background-color: #ed5664
+}
+.am-navbar-light{
+  color:#fff
+}
+.navBar{
+  padding-bottom:90px;
+}
+.am-navbar-title{
+  display: none;
+}
+
+.am-navbar-left{
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow: ellipsis;
+  -webkit-box-flex: 9;
+  -ms-flex: 9;
+  -webkit-flex: 9;
+
+}
